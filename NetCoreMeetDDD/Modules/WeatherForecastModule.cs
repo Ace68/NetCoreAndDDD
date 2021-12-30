@@ -14,7 +14,8 @@ public sealed class WeatherForecastModule : IModule
 
     public IEndpointRouteBuilder MapEndpoints(IEndpointRouteBuilder endpoints)
     {
-        endpoints.MapGet("/weatherforecast", async (IWeatherService weatherService) => await weatherService.GetWeatherForecastAsync())
+        endpoints.MapGet("/weatherforecast", async (IWeatherService weatherService) => 
+                await weatherService.GetWeatherForecastAsync())
             .WithName("GetWeatherForecast")
             .WithTags("WeatherForecast");
 
