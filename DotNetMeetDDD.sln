@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Presentation", "99 Presentation", "{2BA94754-1D85-4379-B08E-6A320A62A973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMeetDDD", "NetCoreMeetDDD\NetCoreMeetDDD.csproj", "{F6A6195B-B980-403B-8727-CEDFCF867900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 Modules", "50 Modules", "{DA6A55B2-0FFF-42E9-826C-DBC25A9C2067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weather", "Weather", "{0F71026F-3E62-4E85-B274-23B6C07BDBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMeetDDD.Modules.Weather", "NetCoreMeetDDD.Modules.Weather\NetCoreMeetDDD.Modules.Weather.csproj", "{69B0BE01-F801-4272-ABB2-2AF369B9C1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMeetDDD.Modules.Weather.Shared", "NetCoreMeetDDD.Modules.Weather.Shared\NetCoreMeetDDD.Modules.Weather.Shared.csproj", "{61C98392-B213-43A6-A952-E755DCF8A99E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{16B7D5B1-EBD4-4B01-A626-1E707E2132BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMeetDDD.Modules.Weather.Tests", "NetCoreMeetDDD.Modules.Weather.Tests\NetCoreMeetDDD.Modules.Weather.Tests.csproj", "{A2F8BA73-4496-4059-A730-FAEC174B21F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A6195B-B980-403B-8727-CEDFCF867900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A6195B-B980-403B-8727-CEDFCF867900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A6195B-B980-403B-8727-CEDFCF867900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A6195B-B980-403B-8727-CEDFCF867900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B0BE01-F801-4272-ABB2-2AF369B9C1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B0BE01-F801-4272-ABB2-2AF369B9C1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B0BE01-F801-4272-ABB2-2AF369B9C1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B0BE01-F801-4272-ABB2-2AF369B9C1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C98392-B213-43A6-A952-E755DCF8A99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C98392-B213-43A6-A952-E755DCF8A99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C98392-B213-43A6-A952-E755DCF8A99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C98392-B213-43A6-A952-E755DCF8A99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F8BA73-4496-4059-A730-FAEC174B21F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F8BA73-4496-4059-A730-FAEC174B21F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F8BA73-4496-4059-A730-FAEC174B21F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F8BA73-4496-4059-A730-FAEC174B21F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6A6195B-B980-403B-8727-CEDFCF867900} = {2BA94754-1D85-4379-B08E-6A320A62A973}
+		{0F71026F-3E62-4E85-B274-23B6C07BDBD0} = {DA6A55B2-0FFF-42E9-826C-DBC25A9C2067}
+		{69B0BE01-F801-4272-ABB2-2AF369B9C1F1} = {0F71026F-3E62-4E85-B274-23B6C07BDBD0}
+		{61C98392-B213-43A6-A952-E755DCF8A99E} = {0F71026F-3E62-4E85-B274-23B6C07BDBD0}
+		{16B7D5B1-EBD4-4B01-A626-1E707E2132BE} = {0F71026F-3E62-4E85-B274-23B6C07BDBD0}
+		{A2F8BA73-4496-4059-A730-FAEC174B21F0} = {16B7D5B1-EBD4-4B01-A626-1E707E2132BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BD89FA2-0D88-484C-B238-65148C74FF3A}
+	EndGlobalSection
+EndGlobal
